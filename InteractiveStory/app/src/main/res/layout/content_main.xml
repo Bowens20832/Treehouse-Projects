@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.vitamins2you.interactivestory.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context=".ui.MainActivity"
+    tools:showIn="@layout/activity_main"
+                android:background="@android:color/white">
 
     <ImageView
         android:layout_width="match_parent"
@@ -27,7 +28,9 @@
         android:id="@+id/startButton"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/nameEditText"
-        android:layout_alignStart="@+id/nameEditText" />
+        android:layout_alignStart="@+id/nameEditText"
+        android:background="@android:color/white"
+        android:textColor="#FF3A8AEC"/>
 
     <EditText
         android:layout_width="match_parent"
